@@ -1,0 +1,99 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    background-color: #fffaf0;
+    background-size: 100%;
+}
+
+.navbar-header {
+    font-family: Trochut;
+    color: red;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #4f4039;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #dbd5b4;
+}
+
+.topnav ul {
+    margin-right: 20px;
+}
+
+/* Add a color to the active/current link */
+
+#mydaftar .modal-content {
+    background-image: url("5.png");
+    background-size: auto;
+    width: 500px;
+    height: 550px;
+    margin-bottom: 200px;
+}
+#mydaftar .modal-content form {
+    margin-left: 100px;
+}
+
+#mydaftar input[type="text"] {
+    width: 300px;
+}
+
+#mydaftar input[type="email"] {
+    width: 300px;
+}
+
+#mydaftar input[type="password"] {
+    width: 300px;
+}
+
+#mydaftar .modal-content button {
+    margin-right: 0px;
+}
+
+#mydaftar .modal-header {
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+#mydaftar .modal-footer {
+    margin-right: 0px;
+}
+
+#mylogin .modal-content {
+    background-image: url("4.png");
+    background-size: 105%;
+    width: 800px;
+    height: 450px;
+}
+
+.modal-header {
+    margin-right: 300px;
+}
+.modal-header button {
+    margin-right: -300px;
+}
+input[type="text"] {
+    width: 400px;
+}
+input[type="email"] {
+    width: 400px;
+}
+input[type="password"] {
+    width: 400px;
+}
+.modal-footer {
+    text-align: left;
+    margin-right: 300px;
+}

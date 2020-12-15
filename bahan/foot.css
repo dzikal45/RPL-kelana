@@ -1,0 +1,77 @@
+html,body{
+    height: 100%;
+}
+
+#container{
+    position: relative;
+    min-height: 100%;
+}
+
+.footer{
+    padding: 30px 30px;
+    width: 100%;
+    background:#d6cfa5;
+    color: #4f4039;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-title m-t-5 m-b-20 p-b-8{
+    margin-left: 30px;
+}
+.footer-title h1{
+        width: 124px;
+        height: 57px;
+        margin: 30px 200px 10px 0;
+        font-family: Trochut;
+        font-size: 60px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #4f4039;
+}
+.footer-title{
+	position: relative;
+    color: #4f4039;
+    font-family: Poppins;
+	font-size: 24px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.footer-title:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: 4px;
+}
+.footer-links a{
+	padding: 10px 0;
+	color:#80716a;
+    display: block;
+    font-family: Poppins;
+	transition: color 0.5s ease-in-out;
+   text-decoration:none;
+}
+.footer-links a:hover{
+	color: #ffffff;
+}
+/* g. Footer bottom section */
+.footer-bottom{
+	width: 100%;
+    padding: 10px 0;
+	text-align: center;
+    color: #4f4039;
+	background: #a99e82;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+h2 {
+    font-family: Miniver;
+    color: #ffffff;
+}
